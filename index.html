@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Navigation and Jumbotron with Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- My css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark navbar-transparent fixed-top"
+    >
+      <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Informasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Event</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Banner -->
+    <div class="page-banner">
+      <div class="section-baner" data-aos="zoom-in">
+        <div class="container">
+          <div class="row align-items-center row-login justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Selamat Datang di Pariwisata Kami</h2>
+              <p>
+                Jelajahi keajaiban destinasi menakjubkan kami dan mulailah
+                perjalanan penemuan dan petualangan yang belum pernah ada
+                sebelumnya
+              </p>
+              <div>
+                <div class="search mt-5">
+                  <div class="container h-100">
+                    <div class="d-flex justify-content-start h-100">
+                      <div class="searchbar">
+                        <input
+                          class="search_input"
+                          type="text"
+                          name=""
+                          placeholder="Search..."
+                        />
+                        <a href="#" class="search_icon"
+                          ><i class="fas fa-search"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fitur Disa -->
+    <section>
+      <div class="fitur">
+        <div class="container">
+          <div class="row pt-4">
+            <div class="title text-center col">
+              <h4 class="wow bounceInUp">Fitur teratas</h4>
+            </div>
+          </div>
+          <div class="row mt-1 mb-5">
+            <div class="desc text-center col">
+              <h3 class="wow bounceInUp">
+                Anda akan mendapatkan solusi kesehatan dan pelayanan <br />
+                terbaik dari Kami
+              </h3>
+            </div>
+          </div>
+          <div class="img-fitur row text-center mt-3">
+            <div class="konsultasi col-md-4">
+              <img src="images/info.png" alt="" class="wow fadeInRight" />
+              <h5 class="mt-3 mb-2 wow fadeInUp">
+                Dapatkan informasi kawasan wisata
+              </h5>
+            </div>
+            <div class="artikel col-md-4">
+              <img
+                src="images/cari-lokasi.png"
+                alt=""
+                class="wow fadeInRight"
+              />
+              <h5 class="mt-3 mb-2 wow fadeInUp">
+                Cari lokasi wisata di daerah terpencil
+              </h5>
+            </div>
+            <div class="jasa col-md-4">
+              <img src="images/rute.png" alt="" class="wow fadeInLeft" />
+              <h5 class="mt-3 mb-2 wow fadeInUp">
+                Dapatkan rute kawasan wisata
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Fitur Disa -->
+
+    <!-- scan qr -->
+    <section>
+      <div class="scan-qr mt-5">
+        <div class="container">
+          <div class="row pt-4">
+            <div class="title col">
+              <h4 class="wow bounceInLeft">Scan QR</h4>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col">
+              <h3 class="wow bounceInLeft">
+                Memindai kode QR untuk akses cepat ke informasi
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mt-5 wow fadeInLeft">
+              <ul class="list-unstyled">
+                <li class="media mt-2">
+                  <img src="images/indikator.png" alt="" class="mr-3" />
+                  <div class="media-body">
+                    <h3>Indikator Kepadatan Pariwisata</h3>
+                    <p>
+                      Kemampuan pengguna untuk melihat tingkat kepadatan
+                      pengunjung
+                    </p>
+                  </div>
+                </li>
+                <li class="media mt-2">
+                  <img src="images/indikator.png" alt="" class="mr-3" />
+                  <div class="media-body">
+                    <h3>Dapatkan Hadiah</h3>
+                    <p>
+                      Dapatkan hadiah dengan melakukan scan QR setiap petak
+                      lokasi pariwisata
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-8 col-sm-12 wow fadeInRight">
+              <div class="image-container">
+                <img class="img-fluid" src="images/scan-qr.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- scan qr -->
+
+    <!-- informasi -->
+    <section>
+      <div class="container">
+        <div class="row section-content">
+          <div class="col-lg-6">
+            <p>Informasi Terkini</p>
+          </div>
+          <div class="col-lg-6">
+            <p>
+              Dapatkan event terbaru dari pariwisata jarak jauh dengan mudah
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/info-wisata.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h4 class="card-title">DIENG CULTURE FESTIVAL</h4>
+                <h6 class="card-text">25-27 Agustus 2023</h6>
+                <p>Kompleks Candi Arjuna, Kabupaten Banjarnegara</p>
+                <a href="#" class="btn btn-primary">Button 1</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/info-wisata.png"
+                class="card-img-top"
+                alt="Gambar 2"
+              />
+              <div class="card-body">
+                <h4 class="card-title">DIENG CULTURE FESTIVAL</h4>
+                <h6 class="card-text">25-27 Agustus 2023</h6>
+                <p>Kompleks Candi Arjuna, Kabupaten Banjarnegara</p>
+                <a href="#" class="btn btn-primary">Button 2</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/info-wisata.png"
+                class="card-img-top"
+                alt="Gambar 3"
+              />
+              <div class="card-body">
+                <h4class="card-title">DIENG CULTURE FESTIVAL</h4class=>
+                <h6 class="card-text">25-27 Agustus 2023</h6>
+                <p>Kompleks Candi Arjuna, Kabupaten Banjarnegara</p>
+                <a href="#" class="btn btn-primary">Button 3</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- informasi -->
+
+    <!-- upload image -->
+    <section>
+      <div class="upload-image">
+        <div class="container">
+          <div class="row img-about">
+            <div class="col-12 col-lg-6 wow fadeInRight">
+              <img
+                class="img-fluid"
+                src="images/berbagi-destiasi.png"
+                alt=""
+              />
+            </div>
+            
+            <div class="col-12 col-lg-6 col-sm-5 mt-5">
+              <div class="row pt-4">
+            <div class="title col">
+              <h4 class="wow bounceInLeft">Scan QR</h4>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col">
+              <h3 class="wow bounceInLeft">
+                Memindai kode QR untuk akses cepat ke informasi
+              </h3>
+            </div>
+          </div>
+              <ul class="list-unstyled mt-5">
+                <li class="media">
+                  <img
+                    src="images/upload.png"
+                    alt=""
+                    class=""
+                  />
+                  <div class="media-body">
+                    <h3>Unggah Destiasi</h3>
+                    <p>
+                      Mengunggah gambar dan informasi terkait destinasi
+                    </p>
+                  </div>
+                </li>
+                <li class="media mt-2">
+                  <img
+                    src="images/share-lokasi.png"
+                    alt=""
+                    class="mr-3"
+                  />
+                  <div class="media-body">
+                    <h3>Lokasi Destinasi</h3>
+                    <p>
+                      Membagikan lokasi tempat pariwisata yang belum terdaftar
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- upload image -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
