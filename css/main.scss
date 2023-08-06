@@ -1,0 +1,30 @@
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "fonts";
+@import "global";
+@import "navbar";
+@import "footer";
+
+@import "pages/home";
+@import "pages/banner";
+@import "pages/banner-detail-info";
+@import "pages/banner-populer";
+@import "pages/auth";
+@import "pages/detail-informasi";
+@import "pages/list-informasi";
+@import "pages/list-populer";
+@import "pages/about";
+@import "pages/scan-qr.scss";
+
+@import "components/fitur";
+@import "components/scan-qr";
+@import "components/contact";
+@import "components/detail";
+@import "components/informasi";
+@import "components/ulasan";
+@import "components/share-destinasi";
+@import "components/popular";
+
+@import "owl.carousel";
+@import "owl.theme.default";
+@import "theme";

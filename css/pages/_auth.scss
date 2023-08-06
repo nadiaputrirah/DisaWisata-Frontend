@@ -1,0 +1,28 @@
+.page-auth {
+  margin-top: 20vh;
+  h2 {
+    color: #0c0d36;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.4px;
+  }
+  label {
+    color: #0c0d36;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .form-control {
+    border-radius: 8px;
+    background: rgba(67, 154, 151, 0.17);
+  }
+
+  .btn {
+    @include button-variant(#439a97, transparent);
+    color: #ffffff;
+  }
+  span a {
+    color: #014539;
+    font-weight: 500;
+  }
+}

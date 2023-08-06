@@ -1,0 +1,64 @@
+.ulasan {
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
+    color: #014539;
+  }
+
+  h6 {
+    font-size: 16px;
+    color: #439a97;
+  }
+
+  .menu-item {
+    padding: 30px 0px 40px 0px;
+    height: 410px;
+    color: #014539;
+  }
+
+  img {
+    margin-top: 24px;
+    height: 100px;
+    width: 100px;
+  }
+
+  h5 {
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #014539;
+  }
+  .img {
+    position: relative;
+    padding-bottom: 160px;
+  }
+  .card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(203, 237, 213, 0.54);
+    border: none;
+    h4 {
+      color: #014539;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: normal;
+    }
+    h5 {
+      color: #439a97;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .icon {
+    width: 14px;
+    height: 14px;
+  }
+}

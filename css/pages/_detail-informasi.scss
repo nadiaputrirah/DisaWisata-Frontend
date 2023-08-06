@@ -1,0 +1,32 @@
+.detail-informasi {
+  h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #014539;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #014539;
+  }
+  h5 {
+    color: #014539;
+  }
+  .table th {
+    background-color: #439a97;
+    color: white;
+  }
+  .table td {
+    background: rgba(203, 237, 213, 0.54);
+    color: #439a97;
+  }
+  .btn {
+    width: 991px;
+    height: 63px;
+    border-radius: 10px;
+    background: #439a97;
+  }
+}

@@ -1,0 +1,67 @@
+.page-about {
+  .image {
+    .box-one {
+      position: absolute;
+      margin-left: 380px;
+      top: 94px;
+      z-index: 1;
+      width: 89px;
+    }
+
+    .banner {
+      position: relative;
+      margin-left: 42px;
+    }
+
+    .box-two {
+      position: relative;
+      top: -124px;
+      z-index: 1;
+      margin-left: 60px;
+      width: 89px;
+    }
+  }
+
+  .desc-about {
+    padding-top: 60px;
+
+    h1 em {
+      font-style: normal;
+      color: #d44000;
+    }
+
+    h1 {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 96px;
+      color: white;
+    }
+
+    p {
+      font-size: 18.5px;
+      line-height: 27px;
+      color: #7c7b7b;
+    }
+
+    .box-one {
+      position: absolute;
+      margin-left: 340px;
+      top: 84px;
+      z-index: 1;
+      width: 89px;
+    }
+
+    .banner {
+      position: relative;
+      margin-left: 42px;
+    }
+
+    .box-two {
+      position: relative;
+      top: -104px;
+      z-index: 1;
+      margin-left: 60px;
+      width: 89px;
+    }
+  }
+}
